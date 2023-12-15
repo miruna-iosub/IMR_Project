@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 254422657657664555}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.795, y: -0.378, z: 0}
+  m_LocalScale: {x: 0.4320225, y: 0.19934, z: 0.63849}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6370569349543131164}
@@ -326,8 +326,8 @@ Transform:
   m_GameObject: {fileID: 2146196149554025147}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.59, y: -0.368, z: 0.003}
+  m_LocalScale: {x: 0.416156, y: 0.19332087, z: 0.6158598}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6323754222190574729}
@@ -479,7 +479,8 @@ GameObject:
   - component: {fileID: 6974793729546866906}
   - component: {fileID: 9144165709646062908}
   - component: {fileID: 8432133502212177714}
-  - component: {fileID: 8680793505055813253}
+  - component: {fileID: 4988807069044018440}
+  - component: {fileID: 2794092878573375672}
   m_Layer: 0
   m_Name: Walking
   m_TagString: Untagged
@@ -575,7 +576,7 @@ CapsuleCollider:
   m_Height: 0.5
   m_Direction: 1
   m_Center: {x: 0, y: 1.5, z: 0}
---- !u!114 &8680793505055813253
+--- !u!114 &4988807069044018440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -584,10 +585,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 3033807218745351727}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d2d077d85e3cd44eaae6b0a35f641c9, type: 3}
+  m_Script: {fileID: 11500000, guid: cf314acf92a9dbe41a204ca76303e1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   egg: {fileID: 3033807218745351727}
+--- !u!114 &2794092878573375672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033807218745351727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c668b65be1dc58d469ca1a9ee551dc21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransitionStateInfoList:
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: 1744665739
+    DestinationState: 2081823275
+    TransitionDuration: 0.25
+    TriggerNameHash: 1981700507
+    TransitionIndex: 0
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: 2081823275
+    DestinationState: 1744665739
+    TransitionDuration: 0.25
+    TriggerNameHash: 1086330055
+    TransitionIndex: 0
+  m_Animator: {fileID: 6974793729546866906}
 --- !u!1 &3298579290800660349
 GameObject:
   m_ObjectHideFlags: 0
