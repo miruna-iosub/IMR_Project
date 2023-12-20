@@ -480,7 +480,6 @@ GameObject:
   - component: {fileID: 9144165709646062908}
   - component: {fileID: 4988807069044018440}
   - component: {fileID: 2794092878573375672}
-  - component: {fileID: 8367343415476132601}
   m_Layer: 0
   m_Name: Walking
   m_TagString: Untagged
@@ -594,28 +593,6 @@ MonoBehaviour:
     TriggerNameHash: 1086330055
     TransitionIndex: 0
   m_Animator: {fileID: 6974793729546866906}
---- !u!64 &8367343415476132601
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3033807218745351727}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4123633966523628939, guid: 2460e41473fbd44aeb25d39afcf36e13, type: 3}
 --- !u!1 &3298579290800660349
 GameObject:
   m_ObjectHideFlags: 0

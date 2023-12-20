@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
+using TMPro;
 
 public class MovementCharacter : NetworkBehaviour
 {
@@ -41,6 +42,17 @@ public class MovementCharacter : NetworkBehaviour
                     }
                 }
 
+            }
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (IsOwner)
+        {
+            if(collision.gameObject.tag == "Door" )
+            {
+                print("I touched the door");
             }
         }
     }
