@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Door
   - Pic
   - Exponat
+  - DoorToRoom2
+  - DoorToRoom1
   layers:
   - Default
   - TransparentFX
