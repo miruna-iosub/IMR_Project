@@ -1,0 +1,4 @@
+numeUnity,numeExponat,numeArtist,anul
+Artwork.05,pictura cu mama,rares,2002
+Artwork.007,fata cu flori,drq,2003
+Artwork.08,peisaj,drq,2069
