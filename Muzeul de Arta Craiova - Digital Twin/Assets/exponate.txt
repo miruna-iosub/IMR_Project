@@ -1,4 +1,14 @@
 numeUnity,numeExponat,numeArtist,anul
-Artwork.05,pictura cu mama,rares,2002
-Artwork.007,fata cu flori,drq,2003
-Artwork.08,peisaj,drq,2069
+Artwork.01,Copil la masa,Eustatiu Stoenescu,1938
+Artwork.02,Portret de femeie,Eustatiu Stoenescu,-
+Artwork.03,Portret de femeie,Eustatiu Stoenescu,-
+Artwork.04,Tigani la drum,Eustatiu Stoenescu,1911
+Artwork.05,Piata din Craiova,Eustatiu Stoenescu,1911
+Artwork.06,Autoportret,Eustatiu Stoenescu,1918
+Artwork.07,Portretul Annei Fortunescu,Eustatiu Stoenescu,-
+Artwork.08,Natura statica cu sticla,Eustatiu Stoenescu,-
+Artwork.09,Someri. Oameni la coada,Eustatiu Stoenescu,-
+Artwork.10,Femeie cu fusta alba,Eustatiu Stoenescu,-
+Artwork.11,Rochia verde,Eustatiu Stoenescu,-
+Artwork.12,Satra de tigani,Eustatiu Stoenescu,-
+Artwork.13,Materninate,Eustatiu Stoenescu,-
