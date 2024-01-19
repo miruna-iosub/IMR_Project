@@ -56,22 +56,23 @@ public class MovementCharacter : NetworkBehaviour
                 //print("I touched the door");
                 if (collision.gameObject.tag == "DoorToRoom2")
                 {
-                   // movingToAnotherRoom(2); //going to room 2
+                   movingToAnotherRoom(2); //going to room 2
                    // print("YES, checking");
                 }
             }
         }
     }
-    /*private void movingToAnotherRoom(int room)
+    private void movingToAnotherRoom(int room)
     {
         if (room == 1)
             transform.position = new Vector3(0, 0, 0);
         else
         {
-            Vector3 pos = new Vector3(13f, 0f, -1f);
-            m_transform.position = pos;
-            transform.parent.position = pos;
-            showChildren(m_transform, pos);
+            Vector3 pos = new Vector3(13f, 3f, -1f);
+            // m_transform.position = pos;
+            Transform grandpa = transform.parent.parent;
+            grandpa.position = pos;
+            showChildren(grandpa, pos);
         }
     }
 
@@ -83,5 +84,5 @@ public class MovementCharacter : NetworkBehaviour
             child.position += position;
             showChildren(child, position);
         }
-    }*/
+    }
 }
