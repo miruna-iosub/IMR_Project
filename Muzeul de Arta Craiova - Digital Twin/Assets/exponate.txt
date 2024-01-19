@@ -1,13 +1,13 @@
 Artwork.01,Copil la masa,Eustatiu Stoenescu,1938
-Artwork.02,Portret de femeie,Eustatiu Stoenescu,-
-Artwork.03,Portret de femeie,Eustatiu Stoenescu,-
+Artwork.02,Portret de femeie,Eustatiu Stoenescu,1923
+Artwork.03,Portret de femeie,Eustatiu Stoenescu,1923
 Artwork.04,Tigani la drum,Eustatiu Stoenescu,1911
 Artwork.05,Piata din Craiova,Eustatiu Stoenescu,1911
 Artwork.06,Autoportret,Eustatiu Stoenescu,1918
-Artwork.07,Portretul Annei Fortunescu,Eustatiu Stoenescu,-
-Artwork.08,Natura statica cu sticla,Eustatiu Stoenescu,-
-Artwork.09,Someri. Oameni la coada,Eustatiu Stoenescu,-
-Artwork.10,Femeie cu fusta alba,Eustatiu Stoenescu,-
-Artwork.11,Rochia verde,Eustatiu Stoenescu,-
-Artwork.12,Satra de tigani,Eustatiu Stoenescu,-
-Artwork.13,Materninate,Eustatiu Stoenescu,-
+Artwork.07,Portretul Annei Fortunescu,Eustatiu Stoenescu,1925
+Artwork.08,Natura statica cu sticla,Eustatiu Stoenescu,1929
+Artwork.09,Someri. Oameni la coada,Eustatiu Stoenescu,1919
+Artwork.10,Femeie cu fusta alba,Eustatiu Stoenescu,1934
+Artwork.11,Rochia verde,Eustatiu Stoenescu,1934
+Artwork.12,Satra de tigani,Eustatiu Stoenescu,1917
+Artwork.13,Materninate,Eustatiu Stoenescu,1936
