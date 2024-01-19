@@ -1,4 +1,3 @@
-numeUnity,numeExponat,numeArtist,anul
 Artwork.01,Copil la masa,Eustatiu Stoenescu,1938
 Artwork.02,Portret de femeie,Eustatiu Stoenescu,-
 Artwork.03,Portret de femeie,Eustatiu Stoenescu,-
