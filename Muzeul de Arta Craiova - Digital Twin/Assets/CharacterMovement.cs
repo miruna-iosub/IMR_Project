@@ -25,7 +25,6 @@ public class CharacterMovement : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
                 {
                     mAnimator.SetTrigger("WalkingTrig");
-                    print("Walks");
                     checker = true;
                 }
             }
@@ -34,7 +33,6 @@ public class CharacterMovement : MonoBehaviour
                 if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
                 {
                     mAnimator.SetTrigger("IdleTrig");
-                    print("Stops");
                     checker = false;
                 }
             }

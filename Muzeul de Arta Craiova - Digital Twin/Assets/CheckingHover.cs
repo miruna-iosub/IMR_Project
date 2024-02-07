@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+using System.Globalization;
 using TMPro;
-using Unity.Netcode;
 using UnityEngine;
+using System.IO;
+using Unity.Netcode;
 
-public class HoverChecker : NetworkBehaviour
+public class CheckingHover : MonoBehaviour
 {
     [SerializeField] GameObject hand;
     GameObject textMeshObject;
@@ -23,8 +24,7 @@ public class HoverChecker : NetworkBehaviour
 
     void Update()
     {
-        if (IsOwner)
-        {
+        
             if (hand != null)
             {
                 Ray ray = new Ray(transform.position, transform.forward);
@@ -34,35 +34,34 @@ public class HoverChecker : NetworkBehaviour
                 {
                     GameObject gameObject = hit.collider.gameObject;
 
-                        if (gameObject.CompareTag("Pic") || gameObject.CompareTag("Exponat"))
+                    if (gameObject.CompareTag("Pic") || gameObject.CompareTag("Exponat"))
+                    {
+                        float distance = CalculateDistance(hand, gameObject);
+
+                        if (distance < 2.2f)
                         {
-                            float distance = CalculateDistance(hand, gameObject);
+                            //Debug.Log("Hovered over object: " + gameObject.name + " distance between objects: " + distance);
 
-                            if (distance < 2.2f)
+                            if (gameObject.name != previous_obj)
                             {
-                                //Debug.Log("Hovered over object: " + gameObject.name + " distance between objects: " + distance);
+                                // Load the file content and find the line with the artwork name
+                                string filePath = "Assets/exponate.txt"; // Replace with the actual path to your file
+                                string artworkName = gameObject.name;
 
-                                if (gameObject.name != previous_obj)
-                                {
-                                    // Load the file content and find the line with the artwork name
-                                    string filePath = "Assets/exponate.txt"; // Replace with the actual path to your file
-                                    string artworkName = gameObject.name;
-
-                                    ShowingInformation(filePath, artworkName);
-                                    previous_obj = gameObject.name;
-                                }
+                                ShowingInformation(filePath, artworkName);
+                                previous_obj = gameObject.name;
                             }
-                            else
-                                BackToDefaultValues();      
                         }
                         else
-                            BackToDefaultValues();        
+                            BackToDefaultValues();
+                    }
+                    else
+                        BackToDefaultValues();
                 }
                 else
-                    BackToDefaultValues();     
+                    BackToDefaultValues();
             }
         }
-    }
 
     float CalculateDistance(GameObject object1, GameObject object2)
     {
