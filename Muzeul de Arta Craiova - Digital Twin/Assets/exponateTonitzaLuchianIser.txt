@@ -1,0 +1,19 @@
+Artwork.001,Flori (Anemone),Stefan Luchian,1868
+Artwork.002,Flori (Tufanele),Stefan Luchian,1868
+Artwork.003,Natura moarta,Stefan Luchian,1868
+Artwork.004,Flori,Stefan Luchian,1868
+Artwork.005,Pastorita,Stefan Luchian,1868
+Artwork.006,Turma de oi,Stefan Luchian,1868
+Artwork.007,Tigancusa cu buchet de flori,Stefan Luchian,1868
+Artwork.008,Bust de tanara cu batic verde,Nicolae Tonitza,1886
+Artwork.009,Portret de tanara,Nicolae Tonitza,1886
+Artwork.010,Profil de fata,Nicolae Tonitza,1886
+Artwork.011,Cap de fata,Nicolae Tonitza,1886
+Artwork.012,Autoportret,Iosif Iser,1881
+Artwork.013,Peisaj,Iosif Iser,1881
+Artwork.014,Arlechin,Iosif Iser,1881
+Artwork.015,Arlechinada,Iosif Iser,1881
+Artwork.016,Odalisca,Iosif Iser,1881
+Artwork.017,Natura moarta,Nicolae Tonitza,1886
+Artwork.018,In mahala,Nicolae Tonitza,1886
+Artwork.019,Peisaj (Han la Mangalia),Nicolae Tonitza,1886
