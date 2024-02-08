@@ -1,3 +1,4 @@
+Artwork,Flori (Crizanteme),Stefan Luchian,1868
 Artwork.001,Flori (Anemone),Stefan Luchian,1868
 Artwork.002,Flori (Tufanele),Stefan Luchian,1868
 Artwork.003,Natura moarta,Stefan Luchian,1868
